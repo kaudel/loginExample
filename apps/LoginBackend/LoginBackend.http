@@ -1,0 +1,6 @@
+@LoginBackend_HostAddress = http://localhost:5015
+
+GET {{LoginBackend_HostAddress}}/HelloWorld
+Accept: application/json
+
+###

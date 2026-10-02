@@ -1,0 +1,17 @@
+$schema: 'https://moonrepo.dev/schemas/project.json'
+
+language: 'csharp'
+
+tasks:
+  build:
+    command: 'dotnet build'
+    inputs:
+      - '**/*.cs'
+      - '*.csproj'
+    outputs:
+      - 'bin'
+      - 'obj'
+
+  run:
+    command: 'dotnet run'
+    preset: 'server'

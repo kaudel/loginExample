@@ -1,0 +1,17 @@
+$schema: 'https://moonrepo.dev/schemas/project.json'
+
+language: 'typescript'
+
+tasks:
+  build:
+    command: 'pnpm exec vite build'
+    inputs:
+      - 'src/**/*'
+      - 'index.html'
+      - 'vite.config.ts'
+    outputs:
+      - 'dist'
+
+  dev:
+    command: 'pnpm exec vite'
+    preset: 'server'
