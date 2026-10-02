@@ -1,0 +1,10 @@
+# moon
+.moon/cache
+.moon/docker
+
+# node / pnpm
+node_modules/
+
+# .NET
+bin/
+obj/

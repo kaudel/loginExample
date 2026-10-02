@@ -1,0 +1,9 @@
+
+
+node:
+  version: 24.5.0
+  syncVersionManagerConfig: nodenv
+
+
+pnpm:
+  version: 12.8.1
